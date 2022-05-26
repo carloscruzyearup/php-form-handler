@@ -3,10 +3,10 @@
     <title>PHP Test Page</title>
   </head>
   <body>
-    <h1>PHP Test Page, Can you see this?</h1>
-    <?php
-    echo '<p>This is PHP!</p>';
-    ?>
-  
+    <h1>Form Handler</h1>
+    <form method="post" action="">
+      <p>First Name: <input  type="text" name="FirstName"/></p>
+      <p><input type="submit" /></p>
+    </form>
   </body>
 </html>
