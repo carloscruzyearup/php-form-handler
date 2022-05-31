@@ -64,9 +64,7 @@
 					</ul>
 					<hr class="d-sm-none">
 				</div>
-			</div>
-		</div>
-
+				<div class="col-sm-8">
 <?php
 if (isset($_POST["FirstName"])) {
 	echo $_POST["FirstName"];
@@ -91,6 +89,9 @@ if (isset($_POST["FirstName"])) {
 					';
 }
 ?>
+				</div>
+			</div>
+		</div>
 
 		<div class="mt-5 p-4 bg-dark text-white text-center">
 		<p>Footer</p>
